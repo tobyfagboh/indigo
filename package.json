@@ -1,0 +1,34 @@
+{
+  "name": "cerebro",
+  "version": "0.0.1",
+  "description": "Common libraries that are used in all test frameworks ",
+  "dependencies": {
+    "async": "latest",
+    "chai": "latest",
+    "glob": "latest",
+    "latest-version": "3.1.0",
+    "mocha": "3.2.0",
+    "optimist": "latest",
+    "q": "latest",
+    "requestify": "latest",
+    "selenium-webdriver": "latest"
+  },
+  "devDependencies": {
+    "jenkins-mocha": "4.1.2",
+    "mocha-bamboo-reporter": "latest",
+    "mocha-jenkins-reporter": "0.3.7",
+    "mochawesome": "2.2.0",
+    "xunit-file": "1.0.0"
+  },
+  "peerDependencies": {
+    "mocha": "*"
+  },
+
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive tests/test.js -R xunit-file -t 900000000",
+    "test2": "NODE_PATH=. mocha --recursive tests/index.js -R xunit-file -t 90000000"
+  },
+
+  "author": "Tobi Fagbohungbe<tfagbohungbe@gmail.com>",
+  "license": "ISC"
+}

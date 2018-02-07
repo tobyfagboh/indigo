@@ -1,0 +1,8 @@
+mochawesome-reports/
+Reports/
+node_modules/
+.idea/
+server-hub/debug.log
+npm-debug.log
+driver/*
+xunit.xml

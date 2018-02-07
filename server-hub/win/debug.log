@@ -1,0 +1,6 @@
+[0608/103519.170:ERROR:process_info.cc(625)] range at 0x3cd228b400000000, size 0x3 fully unreadable
+[0608/103519.171:ERROR:process_info.cc(625)] range at 0x3cd228d400000000, size 0x3 fully unreadable
+[0608/103519.171:ERROR:process_info.cc(625)] range at 0x0, size 0x3 fully unreadable
+[0608/103519.301:ERROR:file_io_win.cc(145)] CreateFile C:\Users\TOBI~1.FAG\AppData\Local\Temp\scoped_dir12220_21627\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0608/103519.301:ERROR:file_io_win.cc(154)] CreateFile C:\Users\TOBI~1.FAG\AppData\Local\Temp\scoped_dir12220_21627\Crashpad\reports\0545b68f-134c-4c9f-b78f-ee416a0e5189.dmp: The system cannot find the path specified. (0x3)
+[0608/103519.302:ERROR:crash_report_exception_handler.cc(95)] PrepareNewCrashReport failed
