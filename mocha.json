@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2017-05-25T11:47:01.898Z",
+    "end": "2017-05-25T11:47:34.097Z",
+    "duration": 32199
+  },
+  "failures": [
+    {
+      "title": "\"before each\" hook: ret for \"Login with email\"",
+      "fullTitle": "Storefront Sanity Test \"before each\" hook: ret for \"Login with email\"",
+      "duration": 30964,
+      "error": "TypeError: path must be a string or Buffer\n    at TypeError (native)\n    at Object.fs.open (fs.js:632:11)\n    at Object.fs.writeFile (fs.js:1317:6)\n    at writeimagetofile (logging.js:185:8)\n    at logging.js:173:21\n    at ManagedPromise.invokeCallback_ (node_modules\\selenium-webdriver\\lib\\promise.js:1384:14)\n    at TaskQueue.execute_ (node_modules\\selenium-webdriver\\lib\\promise.js:3092:14)\n    at TaskQueue.executeNext_ (node_modules\\selenium-webdriver\\lib\\promise.js:3075:27)\n    at asyncRun (node_modules\\selenium-webdriver\\lib\\promise.js:2935:27)\n    at node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: Storefront Sanity Test \"before each\" hook: ret\n    at Context.ret (node_modules\\selenium-webdriver\\testing\\index.js:183:10)"
+    }
+  ],
+  "passes": [],
+  "skipped": []
+}

@@ -1,0 +1,13 @@
+selhub:
+  container_name: magento_selenium_hub2
+  image: selenium/hub:latest
+  ports:
+    - 4444
+
+nodechrome:
+  container_name: magento_selenium_chrome2
+  image: selenium/node-chrome
+  ports:
+    - 5900
+  links:
+    - selhub:hub
