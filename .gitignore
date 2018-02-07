@@ -5,3 +5,4 @@ node_modules/
 server-hub/debug.log
 npm-debug.log
 driver/*
+xunit.xml

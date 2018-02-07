@@ -1,3 +1,4 @@
-<testsuite name="Mocha Tests" tests="1" failures="0" errors="0" skipped="0" timestamp="2018-02-07T11:34:34" time="88.956">
-<testcase classname="Indigo Frontend Sanity Test" name="Search for a patient" time="37.161"/>
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="2018-02-07T12:31:29" time="100.303">
+<testcase classname="Indigo Frontend Sanity Test" name="Login with email" time="11.532"/>
+<testcase classname="Indigo Frontend Sanity Test" name="Search for a patient" time="28.038"/>
 </testsuite>
