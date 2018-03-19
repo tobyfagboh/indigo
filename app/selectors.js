@@ -32,6 +32,7 @@ module.exports = {
         "email":"admin@indigo.com",
         "password":"password",
         "patientName":"oluwatobi",
+        "p":"name",
         "validatePatientName":"Fagbohungbe O"
     }
 };
